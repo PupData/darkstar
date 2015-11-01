@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="DSSearchserver" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug Win32">
+				<Option output="DSSearch-server" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_CONSOLE" />
+					<Add option="-D_CRT_SECURE_NO_WARNINGS" />
+					<Add directory="C:/Users/KOGA/Pictures/Documents/darkstar/win32/DSSearch-server/../external" />
+					<Add directory="C:/Users/KOGA/Pictures/Documents/darkstar/win32/DSSearch-server/../external/mysql" />
+				</Compiler>
+				<Linker>
+					<Add library="libmariadb.lib" />
+					<Add library="WS2_32.Lib" />
+					<Add directory="../../lib" />
+				</Linker>
+			</Target>
+			<Target title="Debug x64">
+				<Option output="DSSearch-server" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_CONSOLE" />
+					<Add option="-D_CRT_SECURE_NO_WARNINGS" />
+					<Add directory="C:/Users/KOGA/Pictures/Documents/darkstar/win32/DSSearch-server/../external" />
+					<Add directory="C:/Users/KOGA/Pictures/Documents/darkstar/win32/DSSearch-server/../external/mysql" />
+				</Compiler>
+				<Linker>
+					<Add library="libmariadb64.lib" />
+					<Add library="WS2_32.Lib" />
+					<Add directory="../../lib64" />
+				</Linker>
+			</Target>
+			<Target title="Release x64">
+				<Option output="DSSearch-server" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_CONSOLE" />
+					<Add directory="C:/Users/KOGA/Pictures/Documents/darkstar/win32/DSSearch-server/../external" />
+					<Add directory="C:/Users/KOGA/Pictures/Documents/darkstar/win32/DSSearch-server/../external/mysql" />
+				</Compiler>
+				<Linker>
+					<Add library="libmariadb64.lib" />
+					<Add library="WS2_32.Lib" />
+					<Add directory="../../lib64" />
+				</Linker>
+			</Target>
+			<Target title="Release Win32">
+				<Option output="DSSearch-server" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_CONSOLE" />
+					<Add directory="C:/Users/KOGA/Pictures/Documents/darkstar/win32/DSSearch-server/../external" />
+					<Add directory="C:/Users/KOGA/Pictures/Documents/darkstar/win32/DSSearch-server/../external/mysql" />
+				</Compiler>
+				<Linker>
+					<Add library="libmariadb.lib" />
+					<Add library="WS2_32.Lib" />
+					<Add directory="../../lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="../../icons/searchserver.ico" />
+		<Unit filename="../../src/common/blowfish.cpp" />
+		<Unit filename="../../src/common/blowfish.h" />
+		<Unit filename="../../src/common/cbasetypes.h" />
+		<Unit filename="../../src/common/malloc.cpp" />
+		<Unit filename="../../src/common/malloc.h" />
+		<Unit filename="../../src/common/md52.cpp" />
+		<Unit filename="../../src/common/md52.h" />
+		<Unit filename="../../src/common/mmo.h" />
+		<Unit filename="../../src/common/showmsg.cpp" />
+		<Unit filename="../../src/common/showmsg.h" />
+		<Unit filename="../../src/common/socket.h" />
+		<Unit filename="../../src/common/sql.cpp" />
+		<Unit filename="../../src/common/sql.h" />
+		<Unit filename="../../src/common/strlib.cpp" />
+		<Unit filename="../../src/common/strlib.h" />
+		<Unit filename="../../src/common/taskmgr.cpp" />
+		<Unit filename="../../src/common/taskmgr.h" />
+		<Unit filename="../../src/common/timer.cpp" />
+		<Unit filename="../../src/common/timer.h" />
+		<Unit filename="../../src/common/utils.cpp" />
+		<Unit filename="../../src/common/utils.h" />
+		<Unit filename="../../src/search/data_loader.cpp" />
+		<Unit filename="../../src/search/data_loader.h" />
+		<Unit filename="../../src/search/packets/auction_history.cpp" />
+		<Unit filename="../../src/search/packets/auction_history.h" />
+		<Unit filename="../../src/search/packets/auction_list.cpp" />
+		<Unit filename="../../src/search/packets/auction_list.h" />
+		<Unit filename="../../src/search/packets/linkshell_list.cpp" />
+		<Unit filename="../../src/search/packets/linkshell_list.h" />
+		<Unit filename="../../src/search/packets/party_list.cpp" />
+		<Unit filename="../../src/search/packets/party_list.h" />
+		<Unit filename="../../src/search/packets/search_comment.cpp" />
+		<Unit filename="../../src/search/packets/search_comment.h" />
+		<Unit filename="../../src/search/packets/search_list.cpp" />
+		<Unit filename="../../src/search/packets/search_list.h" />
+		<Unit filename="../../src/search/search.cpp" />
+		<Unit filename="../../src/search/search.h" />
+		<Unit filename="../../src/search/tcp_request.cpp" />
+		<Unit filename="../../src/search/tcp_request.h" />
+		<Unit filename="resource.h" />
+		<Unit filename="resource.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

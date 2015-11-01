@@ -7,11 +7,6 @@ ITEM_CANNOT_BE_OBTAINED = 6379; -- You cannot obtain the item <item> come back a
        KEYITEM_OBTAINED = 6387; -- Obtained key item: <keyitem>.
  FISHING_MESSAGE_OFFSET = 7043; -- You can't fish here.
 
--- Fields of Valor Texts
-REGIME_ACCEPTED = 10179; -- New training regime registered!
- DONT_SWAP_JOBS = 10180; -- your job will result in the cancellation of your current training regime.
-REGIME_CANCELED = 10181; -- Training regime canceled.
-
 -- Conquest
 CONQUEST = 7443; -- You've earned conquest points!
 
@@ -40,8 +35,3 @@ SIGN_15 = 7374; -- East: East Sarutabaruta West: Giddeus Southeast: Windurst
 SIGN_17 = 7375; -- Northwest: Northwest Tower, Horutoto RuinsEast: Outpost Southwest: Giddeus
 -- conquest Base
 CONQUEST_BASE = 7138; -- Tallying conquest results...
-
--- chocobo digging
-DIG_THROW_AWAY = 7056; -- You dig up ?Possible Special Code: 01??Possible Special Code: 01??Possible Special Code: 01? ?Possible Special Code: 01??Possible Special Code: 05?$?BAD CHAR: 8280??BAD CHAR: 80??BAD CHAR: 80?, but your inventory is full.
-FIND_NOTHING = 7058; -- You dig and you dig, but find nothing.
-

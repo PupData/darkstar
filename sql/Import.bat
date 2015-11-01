@@ -1,0 +1,1 @@
+FOR %%X IN (*.sql) DO ECHO %%X -- IMPORTING... & "c:\program files (x86)\mysql\mysql server 5.6\bin\mysql" dspdb -h localhost -u root -pxidata < %%X

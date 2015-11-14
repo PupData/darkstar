@@ -1,2 +1,0 @@
--- Variable TextID   Description text
-

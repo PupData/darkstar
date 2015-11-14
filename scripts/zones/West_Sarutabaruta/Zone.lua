@@ -6,7 +6,6 @@
 	-- Clear & Reload TextIDs
 package.loaded[ "scripts/zones/West_Sarutabaruta/TextIDs"] = nil;
 require( "scripts/zones/West_Sarutabaruta/TextIDs");
------------------------------------
 	-- SMN Unlock Quest
 require( "scripts/globals/icanheararainbow");
 	-- Zone Default Data
@@ -28,7 +27,8 @@ end;
 -----------------------------------
 
 function onZoneIn(player, prevZone)
-    local cs = -1;
+    -- Reset CSID on Zoning
+	local cs = -1;
 
     -- 
 	if (player:getXPos() == 0 and player:getYPos() == 0 and player:getZPos() == 0) then
@@ -72,9 +72,8 @@ end;
 
 function onEventUpdate(player, csid, option)
     
-	-- DEBUG DATA
-	printf("CSID: %u",csid);
-    printf("RESULT: %u",option);
+	--printf("CSID: %u",csid);
+    --printf("RESULT: %u",option);
 	
     -- Quest: I Can Hear A Rainbow
 	if (csid == 0x0030) then
@@ -96,9 +95,8 @@ end;
 
 function onEventFinish( player, csid, option)
     
-	-- DEBUG DATA
-	printf("CSID: %u",csid);
-    printf("RESULT: %u",option);
+	-- printf("CSID: %u",csid);
+    -- printf("RESULT: %u",option);
 	
     -- Quest: I Can Hear A Rainbow
 	if (csid == 0x0030) then

@@ -4,7 +4,6 @@
 -- Note: PH for Tom Tit Tat
 -----------------------------------	
 	
-require("scripts/globals/fieldsofvalor");	
 require("scripts/zones/West_Sarutabaruta/MobIDs");
 	
 -----------------------------------	

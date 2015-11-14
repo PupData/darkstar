@@ -4,7 +4,6 @@
 -- Note: PH for Spiny Spipi
 -----------------------------------	
 	
-require("scripts/globals/fieldsofvalor");	
 require("scripts/zones/East_Sarutabaruta/MobIDs");
 
 -----------------------------------	
@@ -12,9 +11,7 @@ require("scripts/zones/East_Sarutabaruta/MobIDs");
 -----------------------------------	
 	
 function onMobDeath(mob,killer)	
-    checkRegime(killer,mob,92,2);
-    checkRegime(killer,mob,93,2);
-    
+   
     mob = mob:getID();
     if (Spiny_Spipi_PH[mob] ~= nil) then
 

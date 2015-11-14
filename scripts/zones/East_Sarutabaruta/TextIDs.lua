@@ -18,7 +18,3 @@ SIGNPOST_OFFSET = 7367; -- Southeast: South Tower, Horutoto Ruins Southwest: Win
 
 -- conquest Base
 CONQUEST_BASE = 7043; -- Tallying conquest results...
-
--- chocobo digging
-DIG_THROW_AWAY = 7215; -- You dig up ?Possible Special Code: 01??Possible Special Code: 01??Possible Special Code: 01? ?Possible Special Code: 01??Possible Special Code: 05?$?BAD CHAR: 8280??BAD CHAR: 80??BAD CHAR: 80?, but your inventory is full.
-FIND_NOTHING = 7217; -- You dig and you dig, but find nothing.

@@ -19,7 +19,7 @@ require("scripts/zones/West_Sarutabaruta/TextIDs");
 -----------------------------------
 
 function onTrade(player,npc,trade)
-starstatus = player:getQuestStatus(WINDURST,TO_CATCH_A_FALLIHG_STAR);
+starstatus = player:getQuestStatus(WINDURST,TO_CATCH_A_FALLING_STAR);
 	if (starstatus == 1 and VanadielHour() <= 3) then
 		if (trade:getGil() == 0 and trade:hasItemQty(868,1) == true and trade:getItemCount() == 1 and player:getVar("QuestCatchAFallingStar_prog") == 0) then
 			if (player:getFreeSlotsCount() == 0) then

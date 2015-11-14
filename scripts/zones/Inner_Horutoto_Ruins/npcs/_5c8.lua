@@ -25,11 +25,6 @@ end;
 -----------------------------------
 
 function onTrigger(player,npc)
- ---- WHM BLM RDM CIRCLE LOCATIONS FOR WHEM API IS AVAILABLE TO QUERY POSITIONS IN ZONE EVERY 3 SECONDS --
- -- if ((whmzpos >= -26 and whmzpos <= -22) and (whmxpos <= -261 and whmxpos >= -265))
- -- if ((blmzpos >= -26 and blmzpos <= -22) and (blmxpos <= -254 and blmxpos >= -258))
- -- if ((rdmzpos >= -31 and rdmzpos <= -27) and (rdmxpos <= -257 and rdmxpos >= -261))
- ----------------------------------------------------------------------------------------------------------
 	
 	if (player:getZPos() >= -15) then
 		player:messageSpecial(PORTAL_NOT_OPEN_THAT_SIDE);

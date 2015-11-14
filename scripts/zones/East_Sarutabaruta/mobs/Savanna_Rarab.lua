@@ -4,7 +4,6 @@
 -- Note: PH for Sharp Eared Ropipi
 -----------------------------------	
 	
-require("scripts/globals/fieldsofvalor");	
 require("scripts/zones/East_Sarutabaruta/MobIDs");
 
 -----------------------------------	
@@ -12,8 +11,6 @@ require("scripts/zones/East_Sarutabaruta/MobIDs");
 -----------------------------------	
 	
 function onMobDeath(mob,killer)	
-	checkRegime(killer,mob,91,1);
-    
     mob = mob:getID();
     if (Sharp_Eared_Ropipi_PH[mob] ~= nil) then
 

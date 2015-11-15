@@ -82,6 +82,7 @@ function onEventUpdate( player, csid, option)
                 player:updateEvent(0,0,0,0,0,2);
             end
         end
+	end
 end;
 
 -----------------------------------
@@ -102,5 +103,5 @@ function onEventFinish( player, csid, option)
         player:delKeyItem(SIXTH_GLOWING_MANA_ORB);
     elseif (csid == 0x0032) then
         lightCutsceneFinish(player); -- Quest: I Can Hear A Rainbow
-    end
+		end
 end;

@@ -5,8 +5,6 @@
 -- @pos 261 -17 -458 116
 -----------------------------------
 package.loaded["scripts/zones/East_Sarutabaruta/TextIDs"] = nil;
------------------------------------
-
 require("scripts/globals/keyitems");
 require("scripts/globals/missions");
 require("scripts/zones/East_Sarutabaruta/TextIDs");
@@ -23,15 +21,17 @@ end;
 -----------------------------------
 
 function onTrigger(player,npc)
-	
-	-- Check if we are on Windurst Mission 1-2
 	if (player:getCurrentMission(WINDURST) == THE_HEART_OF_THE_MATTER) then
 		MissionStatus = player:getVar("MissionStatus");
 		if (MissionStatus == 1) then
-			player:startEvent(0x002e);
+			player:startEvent(0x002e);		-- WM1-2 Intro
 		elseif (MissionStatus == 2) then
-			player:startEvent(0x002f);
+			player:startEvent(0x002f);		-- WM1-2 Instructions
+		elseif (MissionStatus == 6) then
+			player:startEvent(0x0031);		-- WM1-2 Turn-In Instructions
 		end
+	else
+		player:startEvent(0x002d);			-- Default Text
 	end
 	
 end; 
@@ -41,8 +41,6 @@ end;
 -----------------------------------
 
 function onEventUpdate(player,csid,option)
---printf("CSID: %u",csid);
---printf("RESULT: %u",option);
 end;
 
 -----------------------------------
@@ -50,10 +48,7 @@ end;
 -----------------------------------
 
 function onEventFinish(player,csid,option)
---printf("CSID: %u",csid);
---printf("RESULT: %u",option);
-	
-	if (csid == 0x002e) then
+	if (csid == 0x002e) then				-- WM1-2 Intro
 		player:setVar("MissionStatus",2);
 		player:addKeyItem(SOUTHEASTERN_STAR_CHARM);
 		player:messageSpecial(KEYITEM_OBTAINED,SOUTHEASTERN_STAR_CHARM);

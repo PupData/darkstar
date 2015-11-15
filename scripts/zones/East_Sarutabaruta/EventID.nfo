@@ -1,0 +1,280 @@
+Treasure Coffer
+	ID: 98 42 07 01
+	Event IDs:2
+	0x07d0		-- Obtain this item?
+	1 reserved IDs.
+
+Pore-Ohre
+	ID: a5 42 07 01
+	Event IDs:38
+	0x002d		-- Default Text
+	0x002e		-- WM1-2 Intro
+	0x002f		-- WM1-2 Instructions
+	0x0030		-- WM1-2 Finishing CS
+	0x0031		-- WM1-2 Turn-In Instructions
+	33 reserved IDs
+
+Ace of Cups
+	ID: a6 42 07 01
+	Event IDs:28
+	0x0030		-- WM1-2 Finishing CS
+	27 reserved IDs
+
+Ace of Wands
+	ID: a7 42 07 01
+	Event IDs:24
+	0x0030		-- WM1-2 Finishing CS
+	23 reserved IDs
+
+Ace of Swords
+	ID: a8 42 07 01
+	Event IDs:23
+	0x0030		-- WM1-2 Finishing CS
+	22 reserved IDs
+
+[[Sama Gohjima]]
+	[[ EventIDs Backwards and only one used ]]
+	ID: a9 42 07 01
+	Event IDs:3
+	0x002b		-- Default Text
+	[[0x0035]]	-- WM1-1 Instructions
+	1 reserved IDs
+
+Stone Monument
+	ID: be 42 07 01
+	Event IDs:2
+	0x0384		-- Monument Text
+	1 reserved IDs
+
+EFFECTER
+	ID: c0 42 07 01
+	Event IDs:3
+	0x0032		-- SMN Quest (Clear Sky; Orange)
+	2 reserved IDs
+
+Carbuncle
+	ID: c1 42 07 01
+	Number of Event IDs:3
+	0x0032		-- SMN Quest (Clear Sky; Orange)
+	2 reserved IDs
+
+Talking Doll
+	ID: c2 42 07 01
+	Event IDs:2
+	0x0034	-- WM8-1 Ring Directions
+				-- 0->N  1->NE  2->E  3->SE  4->S  5->SW  6->W  7->NW
+				-- Use Params for X (0x0034,0,0,0,0,0,X)
+	1 reserved IDs
+
+[[Ramblix]]
+	[[ CS Options Gives Black Screen ]]
+	ID: c3 42 07 01
+	Number of Event IDs:2
+	0x0036		-- Completed CS List
+	1 reserved IDs
+
+Lake Tepokalipuka
+	ID: c5 42 07 01
+	Event IDs:2
+	0x0048		-- Quest: The Young and the Threadless
+	1 reserved IDs]]
+
+Orlaine
+	ID: c6 42 07 01
+	Event IDs:2
+	0x0385		-- Quest Complete: A Chocobo Riding Game (Windurst)
+	1 reserved IDs
+
+Field Manual
+	ID: c8 42 07 01
+	Event IDs:2
+	0x003d		-- Field Manual 1
+	1 reserved IDs
+
+Field Manual
+	ID: c9 42 07 01
+	Event IDs:2
+	0x003e		-- Field Manual 2
+	1 reserved IDs
+
+Field Manual
+	ID: ca 42 07 01
+	Number of Event IDs:2
+	0x003f		-- Field Manual 3
+	1 reserved IDs
+
+Field Parchment
+	ID: cb 42 07 01
+	Event IDs:3
+	0x07d1		-- Elite Field Training
+	0x07d2		-- Debug Menu: Adjust Variables
+	1 reserved IDs
+
+Ethereal Junction
+	ID: cc 42 07 01
+	Number of Event IDs:3
+	0x2328		-- Unity
+	0x232b		-- Multiple Unity (Pick One...)
+	1 reserved IDs
+
+Ethereal Junction
+	ID: cd 42 07 01
+	Event IDs:3
+	0x2329		-- Unity
+	0x232c		-- Multiple Unity (Pick One...)
+	1 reserved IDs
+
+Ethereal Junction
+	ID: ce 42 07 01
+	Event IDs:3
+	0x232a		-- Unity
+	0x232d		-- Multiple Unity (Pick One...)
+	1 reserved IDs
+
+???
+	ID: d2 42 07 01
+	Event IDs:11
+	0x0047		-- ASA: Mission 2 Complete
+	10 reserved IDs
+
+Moogle
+	ID: d4 42 07 01
+	Event IDs:28
+	0x0047		-- ASA: Mission 2 Complete
+	27 reserved IDs
+
+Shantotto
+	ID: d5 42 07 01
+	Number of Event IDs:19
+	0x0047		-- ASA: Mission 2 Complete
+	18 reserved IDs
+
+1
+	ID: d6 42 07 01
+	Event IDs:4
+	0x0047		-- ASA: Mission 2 Complete
+	3 reserved IDs
+
+Planar Rift
+	ID: d9 42 07 01
+	Event IDs:2
+	0x1770		-- Planar Rift 1
+	1 reserved IDs
+
+Planar Rift
+	ID: da 42 07 01
+	Event IDs:2
+	0x1771		-- Planar Rift 2
+	1 reserved IDs
+
+Planar Rift
+	ID: db 42 07 01
+	Event IDs:2
+	0x1772		-- Planar Rift 3
+	1 reserved IDs
+
+Riftworn Pyxis
+	ID: dc 42 07 01
+	Event IDs:2
+	0x1773		-- Voidwatch Reward 1
+	1 reserved IDs
+
+Riftworn Pyxis
+	ID: dd 42 07 01
+	Event IDs:2
+	0x1774		-- Voidwatch Reward 2
+	1 reserved IDs
+
+Riftworn Pyxis
+	ID: de 42 07 01
+	Event IDs:2
+	0x1775		-- Voidwatch Reward 3
+	1 reserved IDs
+
+Moogle
+	ID: df 42 07 01
+	Event IDs:4
+	0x0388		-- Feast of Swords: Malice Sword Directions
+	0x0389		-- Feast of Swords: Malice Sword Directions
+	0x038a		-- Debug Menu: Malice Absorb Rate
+	1 reserved IDs
+
+Kesha Shopehllok
+	ID: e6 42 07 01
+	Event IDs:3
+	0x0037		-- Goldfish Scooping Menu
+	[[0x0038]]	-- Goldfish Scooping Turn-In
+	1 reserved IDs
+
+Moogle
+	ID: e8 42 07 01
+	Event IDs:7
+	0x00aa		-- Blazing Buffalos Main Menu
+	0x00af		-- JP Menu
+	0x00b0		-- Herding Menu
+	0x00ab		-- Bovine Brands Shop
+	0x00b1		-- Herding Menu
+	0x00b2		-- Register for Event in Town
+	1 reserved IDs
+
+Moogle
+	ID: e9 42 07 01
+	Event IDs:9
+	0x00aa		-- Blazing Buffalos Main Menu
+	0x00ab		-- Bovine Brands Shop
+	0x00ad		-- Locks Up Client (@release)
+	0x00ae		-- Locks Up Client (@release)
+	0x00af		-- JP Menu
+	0x00b0		-- Herding Menu
+	0x00b1		-- Herding Menu
+	0x00b2		-- Register for Event in Town
+	1 reserved IDs
+
+Moogle
+	ID: ea 42 07 01
+	Event IDs:6
+	0x7fc3		-- Halloween Event Main Menu
+	0x7fc4		-- Join the Fight?
+	0x7fc5		-- Need Help?
+	0x7fc6		-- Halloween Event Finish
+	0x004a		-- Magic Taken...
+	1 reserved IDs
+
+???
+	ID: eb 42 07 01
+	Event IDs:3
+	0x7fc5		-- Need Help?
+	0x004a		-- Magic Taken...
+	1 reserved IDs
+
+Magivore Ternion
+	ID: ec 42 07 01
+	Event IDs:4
+	0x7fc5		-- Need Help?
+	0x004a		-- Magic Taken...
+	2 reserved IDs
+
+Whispering Tortoise
+	ID: ed 42 07 01
+	Event IDs:9
+	0x1b59		-- Starlight Celebration: Beginner Runner
+	0x1b5c		-- Mid-Runner Help Menu
+	0x1b5d		-- Runner Return
+	0x1b63		-- Welcome Back Runner
+	0x1b62		-- Runner Took Too Long
+	0x1b61		-- Post Starlight Rules/Rewards
+	0x1b64		-- Didn't Record Time
+	0x1b66		-- Don't Meet Requirements
+	1 reserved IDs
+
+Debug
+	ID: f8 42 07 01
+	Event IDs:2	
+	0x1b65		-- Debug Menu: Set Starlight Celebration Status
+	1 reserved IDs
+
+Sline
+	ID: fa 42 07 01
+	Event IDs:2
+	0x038c		-- Quest: Dragon Quest X Online
+	1 reserved IDs
